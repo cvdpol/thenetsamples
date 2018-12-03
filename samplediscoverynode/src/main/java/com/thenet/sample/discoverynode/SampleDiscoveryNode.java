@@ -1,7 +1,7 @@
-package discoverynode;
+package com.thenet.sample.discoverynode;
 
 
-import com.thenet.abstractnode.member.MemberInformation;
+import com.thenet.abstractservernode.member.MemberInformation;
 import com.thenet.discoverynode.DiscoveryNode;
 import com.thenet.discoverynode.listener.MemberListener;
 

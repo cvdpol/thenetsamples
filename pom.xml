@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>sampleservicenode</module>
         <module>sampledatanode</module>
         <module>samplediscoverynode</module>
         <module>samplegateway</module>

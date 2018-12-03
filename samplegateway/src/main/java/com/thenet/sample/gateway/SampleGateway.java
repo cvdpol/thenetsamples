@@ -1,4 +1,4 @@
-package com.thenet.gateway;
+package com.thenet.sample.gateway;
 
 import com.thenet.gateway.Gateway;
 
