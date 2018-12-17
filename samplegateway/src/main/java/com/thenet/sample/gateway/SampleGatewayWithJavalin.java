@@ -16,12 +16,13 @@ public class SampleGatewayWithJavalin extends Gateway {
         super("SampleGateway", 0);
         Javalin app = Javalin.create().start(7000);
         app.get("/", ctx -> {
-            ctx.result(getAllPersons().toString());
+            getAllPersons();
+            ctx.result("Result");
         });
     }
 
-    private List<?> getAllPersons() {
-        return this.send(createCall());
+    private void getAllPersons() {
+        this.sendRequest(createCall());
     }
 
     private Call createCall() {
